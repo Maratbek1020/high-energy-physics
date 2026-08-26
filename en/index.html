@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>High Energy Physics</title>
-    <meta name="description" content="Educational portal about high energy physics, QCD, QGP and heavy-ion collisions.">
+
+    <meta name="description"
+          content="Educational portal about high energy physics, QCD, QGP and heavy-ion collisions.">
 
     <link rel="stylesheet" href="../style.css">
+
+    <script defer
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
 </head>
 
 <body>
@@ -14,29 +22,60 @@
 <header class="header">
     <div class="container nav">
 
-        <a class="logo" href="/en/">HEP<span>Lab</span></a>
+        <a class="logo" href="/en/">
+            HEP<span>Lab</span>
+        </a>
 
-       <nav id="nav">
-    <a href="/en/">Home</a>
-    <a href="/en/topics/">Topics</a>
-    <a href="/en/about/">About</a>
-    <a href="/en/experiments/">Experiments</a>
-    <a href="/en/models/">Models</a>
-    <a href="/en/about-site/">About the site</a>
+        <nav id="nav">
 
-    <a href="/">RU</a>
-    <a href="/en/">EN</a>
-   </nav>
+            <a href="/en/">Home</a>
+
+            <a href="/en/topics/">
+                Topics
+            </a>
+
+            <a href="/en/about/">
+                About
+            </a>
+
+            <a href="/en/experiments/">
+                Experiments
+            </a>
+
+            <a href="/en/models/">
+                Models
+            </a>
+
+            <a href="/en/about-site/">
+                About the site
+            </a>
+
+            <a href="/">
+                RU
+            </a>
+
+            <a href="/en/">
+                EN
+            </a>
+
+        </nav>
 
     </div>
 </header>
 
+
 <main>
 
+<!-- =========================
+     HERO
+========================= -->
+
 <section class="hero" id="home">
+
     <div class="container hero-grid">
 
         <div>
+
             <div class="eyebrow">
                 PHYSICS • RESEARCH • EDUCATION
             </div>
@@ -46,31 +85,589 @@
                 <span>Physics</span>
             </h1>
 
-            <p>
+            <p class="lead">
                 We study the fundamental structure of matter —
                 from quarks and gluons to the quark-gluon plasma
                 and heavy-ion collisions.
             </p>
 
-            <a href="/en/topics/" class="btn">
-                 Start learning →
-           </a>
+            <div class="buttons">
 
-            <a href="/en/experiments/" class="btn secondary">
-             Experiments
-           </a>
+                <a href="/en/topics/" class="btn primary">
+                    Start learning →
+                </a>
+
+                <a href="/en/experiments/" class="btn secondary">
+                    Experiments
+                </a>
+
+            </div>
+
         </div>
 
-        <div>
-            <!-- Здесь можно оставить вашу существующую иллюстрацию -->
+
+        <!-- Particle illustration -->
+
+        <div class="particle-card">
+
+            <div class="orbit orbit1"></div>
+            <div class="orbit orbit2"></div>
+
+            <div class="particle p1">
+                q
+            </div>
+
+            <div class="particle p2">
+                g
+            </div>
+
+            <div class="particle p3">
+                π
+            </div>
+
+            <div class="core">
+                QGP
+            </div>
+
+            <div class="formula">
+                \(E=mc^2\)
+            </div>
+
         </div>
 
     </div>
+
+</section>
+
+
+<!-- =========================
+     PHYSICS PARAMETERS
+========================= -->
+
+<section class="stats">
+
+    <div class="container stats-grid">
+
+        <div>
+
+            <strong>
+                QCD
+            </strong>
+
+            <span>
+                Quantum Chromodynamics
+            </span>
+
+        </div>
+
+
+        <div>
+
+            <strong>
+                QGP
+            </strong>
+
+            <span>
+                Quark-Gluon Plasma
+            </span>
+
+        </div>
+
+
+        <div>
+
+            <strong>
+                p<sub>T</sub>
+            </strong>
+
+            <span>
+                Transverse Momentum
+            </span>
+
+        </div>
+
+
+        <div>
+
+            <strong>
+                √s<sub>NN</sub>
+            </strong>
+
+            <span>
+                Collision Energy
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     TOPICS
+========================= -->
+
+<section class="section" id="topics">
+
+    <div class="container">
+
+        <div class="section-head">
+
+            <div>
+
+                <div class="eyebrow">
+                    MAIN TOPICS
+                </div>
+
+                <h2>
+                    Explore Physics by Topic
+                </h2>
+
+            </div>
+
+            <p>
+                From the Standard Model to modern research
+                in nuclear matter and heavy-ion collisions.
+            </p>
+
+        </div>
+
+
+        <div class="cards">
+
+
+            <article class="card">
+
+                <div class="icon">
+                    ⚛
+                </div>
+
+                <h3>
+                    Standard Model
+                </h3>
+
+                <p>
+                    Quarks, leptons, bosons and fundamental
+                    interactions.
+                </p>
+
+                <a href="/en/topics/">
+                    Learn more →
+                </a>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="icon">
+                    ∿
+                </div>
+
+                <h3>
+                    QCD
+                </h3>
+
+                <p>
+                    Color charge, gluons, confinement and
+                    asymptotic freedom.
+                </p>
+
+                <a href="/en/topics/">
+                    Learn more →
+                </a>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="icon">
+                    ✦
+                </div>
+
+                <h3>
+                    Quark-Gluon Plasma
+                </h3>
+
+                <p>
+                    A hot and dense state of nuclear matter
+                    created at extremely high energies.
+                </p>
+
+                <a href="/en/topics/">
+                    Learn more →
+                </a>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="icon">
+                    💥
+                </div>
+
+                <h3>
+                    Heavy-Ion Collisions
+                </h3>
+
+                <p>
+                    Pb+Pb, Xe+Xe and properties of matter
+                    produced in nuclear collisions.
+                </p>
+
+                <a href="/en/experiments/">
+                    Learn more →
+                </a>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="icon">
+                    📊
+                </div>
+
+                <h3>
+                    p<sub>T</sub> Spectra
+                </h3>
+
+                <p>
+                    Transverse-momentum distributions of
+                    π, K and p particles.
+                </p>
+
+                <a href="/en/models/">
+                    Learn more →
+                </a>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="icon">
+                    🧮
+                </div>
+
+                <h3>
+                    Physical Models
+                </h3>
+
+                <p>
+                    Glauber, Blast-Wave, Tsallis and other
+                    models used to analyse experimental data.
+                </p>
+
+                <a href="/en/models/">
+                    Learn more →
+                </a>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     EXPERIMENTS
+========================= -->
+
+<section class="dark-section" id="experiments">
+
+    <div class="container">
+
+        <div class="eyebrow">
+            EXPERIMENTAL PHYSICS
+        </div>
+
+        <h2>
+            Modern Experiments
+        </h2>
+
+
+        <div class="experiment-grid">
+
+            <div class="experiment">
+
+                <span>
+                    ALICE
+                </span>
+
+                <p>
+                    Study of strong interactions and QGP
+                    at the LHC.
+                </p>
+
+            </div>
+
+
+            <div class="experiment">
+
+                <span>
+                    STAR
+                </span>
+
+                <p>
+                    Study of nuclear matter
+                    at RHIC.
+                </p>
+
+            </div>
+
+
+            <div class="experiment">
+
+                <span>
+                    NICA
+                </span>
+
+                <p>
+                    Investigation of dense
+                    baryonic matter.
+                </p>
+
+            </div>
+
+
+            <div class="experiment">
+
+                <span>
+                    BM@N
+                </span>
+
+                <p>
+                    Heavy-ion collision physics
+                    at NICA.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     MODELS
+========================= -->
+
+<section class="section" id="models">
+
+    <div class="container">
+
+        <div class="section-head">
+
+            <div>
+
+                <div class="eyebrow">
+                    THEORY AND DATA ANALYSIS
+                </div>
+
+                <h2>
+                    Physical Models
+                </h2>
+
+            </div>
+
+        </div>
+
+
+        <div class="model-list">
+
+            <div class="model">
+
+                <b>
+                    Glauber Model
+                </b>
+
+                <span>
+                    Geometry and collision centrality.
+                </span>
+
+            </div>
+
+
+            <div class="model">
+
+                <b>
+                    Blast-Wave
+                </b>
+
+                <span>
+                    Collective radial flow.
+                </span>
+
+            </div>
+
+
+            <div class="model">
+
+                <b>
+                    Tsallis
+                </b>
+
+                <span>
+                    Description of non-exponential
+                    transverse-momentum spectra.
+                </span>
+
+            </div>
+
+
+            <div class="model">
+
+                <b>
+                    Tsallis Blast-Wave
+                </b>
+
+                <span>
+                    Temperature, transverse flow
+                    and non-extensivity.
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="physics-box">
+
+            <div>
+
+                <div class="eyebrow">
+                    EXAMPLE
+                </div>
+
+                <h3>
+                    Transverse Momentum
+                </h3>
+
+                <p>
+                    The transverse momentum of a particle
+                    relative to the beam axis is defined as
+                </p>
+
+                <div class="big-formula">
+                    \(p_T = \sqrt{p_x^2+p_y^2}\)
+                </div>
+
+            </div>
+
+
+            <div class="mini-chart">
+
+                <div class="bar b1"></div>
+                <div class="bar b2"></div>
+                <div class="bar b3"></div>
+                <div class="bar b4"></div>
+                <div class="bar b5"></div>
+                <div class="bar b6"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     ABOUT
+========================= -->
+
+<section class="section about" id="about">
+
+    <div class="container about-grid">
+
+        <div>
+
+            <div class="eyebrow">
+                ABOUT THE PROJECT
+            </div>
+
+            <h2>
+                Scientific Portal for High Energy Physics
+            </h2>
+
+            <p>
+                This website is intended for students,
+                researchers and everyone interested in
+                modern high-energy physics.
+            </p>
+
+            <p>
+                It covers QCD, QGP, heavy-ion collisions,
+                experimental data and theoretical models.
+            </p>
+
+        </div>
+
+
+        <div class="contact-card">
+
+            <h3>
+                Research
+            </h3>
+
+            <p>
+                Materials on Pb+Pb and Xe+Xe collisions,
+                ALICE, QGP and Tsallis Blast-Wave models.
+            </p>
+
+            <a class="btn primary" href="/en/about/">
+                About the project
+            </a>
+
+        </div>
+
+    </div>
+
 </section>
 
 </main>
 
+
+<footer>
+
+    <div class="container footer">
+
+        <div>
+
+            <b>
+                HEPLab
+            </b>
+
+            <br>
+
+            <span>
+                High Energy Physics
+            </span>
+
+        </div>
+
+
+        <div>
+            © 2026 • Scientific and Educational Project
+        </div>
+
+    </div>
+
+</footer>
+
+
 <script src="../script.js"></script>
 
 </body>
+
 </html>
